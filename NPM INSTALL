@@ -1,0 +1,10 @@
+npm i
+npm i sass
+npm i react-router-dom
+npm i -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm i daisyui
+
+mkdir src/pages
+mkdir src/components
+mkdir src/sass

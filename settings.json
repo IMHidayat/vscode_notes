@@ -1,0 +1,54 @@
+{
+  // "json.schemaDownload.enable": true,
+  "workbench.colorTheme": "Theme",
+  "liveServer.settings.CustomBrowser": "firefox",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "postcss": "scss"
+  },
+  "emmet.excludeLanguages": ["markdown", "sass"],
+  "tailwindCSS.classAttributes": ["class", "className", "ngClass", "c", "c2", "c3", "c4", "c5"],
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css-class-finder": {
+    "includePatterns": "**/*{.scss,.sass}",
+    "excludePatterns": "**/{node_modules}"
+  },
+  // "html-css-class-completion.JavaScriptLanguages": ["javascript", "javascriptreact", "typescriptreact"],
+  "cssPeek.peekFromLanguages": ["html", "scss", "sass", "django-html", "laravel-blade", "razor", "vue", "blade", "pug", "jade", "handlebars", "php", "twig", "md", "nunjucks", "javascript", "javascriptreact", "jsx", "JSX", "erb", "typescript", "typescriptreact", "HTML (Eex)", "html-eex", "ejs"],
+  "css.enabledLanguages": ["html", "javascript", "javascriptreact", "JSX", "jsx"],
+  "workbench.iconTheme": "material-icon-theme",
+  "prettier.proseWrap": "never",
+  "html.format.contentUnformatted": "",
+  "html.format.preserveNewLines": false,
+  "javascript.suggest.paths": false,
+  "prettier.printWidth": 10000000000000000,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "indentRainbow.colors": ["rgba(0,0,0,.2)", "rgba(255, 255, 255,.001)"],
+  "json.schemas": [],
+  "indentRainbow.errorColor": "rgba(0,0,0,0)",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.tabSize": 2,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "settingsSync.ignoredExtensions": [],
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "postcss.validate": false,
+  "[postcss]": { "scss": "scss" },
+  "explorer.confirmDragAndDrop": false,
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "window.zoomLevel": 2
+}
