@@ -36,6 +36,7 @@
   "liveServer.settings.donotVerifyTags": true,
   "indentRainbow.colors": ["rgba(0,0,0,.2)", "rgba(255, 255, 255,.001)"],
   "json.schemas": [],
+  "window.zoomLevel": 2,
   "indentRainbow.errorColor": "rgba(0,0,0,0)",
   "security.workspace.trust.untrustedFiles": "open",
   "editor.tabSize": 2,
@@ -49,6 +50,6 @@
   "[postcss]": { "scss": "scss" },
   "explorer.confirmDragAndDrop": false,
   "css.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownAtRules": "ignore",
-  "window.zoomLevel": 2
+  "less.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore"
 }
