@@ -5,19 +5,23 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "editor.autoClosingBrackets": "always",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "postcss": "scss"
   },
   "emmet.excludeLanguages": ["markdown", "sass"],
-  "tailwindCSS.classAttributes": ["class", "className", "ngClass", "c", "c2", "c3", "c4", "c5"],
+  "tailwindCSS.classAttributes": ["class", "className", "ngClass", "c", "c2", "c3", "c4", "c5", "testing", ".*Class"],
+  "tailwindCSS.emmetCompletions": true,
   "tailwindCSS.includeLanguages": {
     "html": "html",
     "javascript": "javascript",
     "css": "css"
   },
   "editor.quickSuggestions": {
-    "strings": true
+    "other": "off",
+    "comments": "on",
+    "strings": "on"
   },
   "css-class-finder": {
     "includePatterns": "**/*{.scss,.sass}",
@@ -32,7 +36,7 @@
   "html.format.contentUnformatted": "",
   "html.format.preserveNewLines": true,
   "javascript.suggest.paths": false,
-  "prettier.printWidth": 10000000000000000,
+  "prettier.printWidth": 10000000,
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   "indentRainbow.colors": ["rgba(0,0,0,.2)", "rgba(255, 255, 255,.001)"],
@@ -48,9 +52,13 @@
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "postcss.validate": false,
-  "[postcss]": { "scss": "scss" },
+  "[postcss]": {
+    "scss": "scss"
+  },
   "explorer.confirmDragAndDrop": false,
   "css.lint.unknownAtRules": "ignore",
   "less.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownAtRules": "ignore"
+  "scss.lint.unknownAtRules": "ignore",
+  "editor.suggestOnTriggerCharacters": false,
+  "tabnine.experimentalAutoImports": true
 }

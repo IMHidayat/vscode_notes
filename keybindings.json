@@ -172,5 +172,63 @@
     "key": "ctrl+alt+f12",
     "command": "-extension.css-class-finder",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+\\",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "shift+3",
+    "command": "auto.addInterpolation",
+    "when": "editorTextFocus && editorLangId == 'ruby' && vim.mode != 'Normal' && vim.mode != 'Visual' && vim.mode != 'VisualBlock' && vim.mode != 'VisualLine'"
+  },
+  {
+    "key": "shift+3",
+    "command": "-auto.addInterpolation",
+    "when": "editorTextFocus && editorLangId == 'ruby' && vim.mode != 'Normal' && vim.mode != 'Visual' && vim.mode != 'VisualBlock' && vim.mode != 'VisualLine'"
+  },
+  {
+    "key": "alt+r",
+    "command": "auto.addInterpolation",
+    "when": "editorTextFocus && editorLangId == 'typescriptreact' && vim.mode != 'Normal' && vim.mode != 'Visual' && vim.mode != 'VisualBlock' && vim.mode != 'VisualLine'"
+  },
+  {
+    "key": "shift+4",
+    "command": "-auto.addInterpolation",
+    "when": "editorTextFocus && editorLangId == 'typescriptreact' && vim.mode != 'Normal' && vim.mode != 'Visual' && vim.mode != 'VisualBlock' && vim.mode != 'VisualLine'"
+  },
+  {
+    "key": "alt+r",
+    "command": "auto.addInterpolation",
+    "when": "editorTextFocus && editorLangId == 'typescript' && vim.mode != 'Normal' && vim.mode != 'Visual' && vim.mode != 'VisualBlock' && vim.mode != 'VisualLine'"
+  },
+  {
+    "key": "shift+4",
+    "command": "-auto.addInterpolation",
+    "when": "editorTextFocus && editorLangId == 'typescript' && vim.mode != 'Normal' && vim.mode != 'Visual' && vim.mode != 'VisualBlock' && vim.mode != 'VisualLine'"
+  },
+  {
+    "key": "alt+r",
+    "command": "auto.addInterpolation",
+    "when": "editorTextFocus && editorLangId == 'javascriptreact' && vim.mode != 'Normal' && vim.mode != 'Visual' && vim.mode != 'VisualBlock' && vim.mode != 'VisualLine'"
+  },
+  {
+    "key": "shift+4",
+    "command": "-auto.addInterpolation",
+    "when": "editorTextFocus && editorLangId == 'javascriptreact' && vim.mode != 'Normal' && vim.mode != 'Visual' && vim.mode != 'VisualBlock' && vim.mode != 'VisualLine'"
+  },
+  {
+    "key": "alt+r",
+    "command": "auto.addInterpolation",
+    "when": "editorTextFocus && editorLangId == 'javascript' && vim.mode != 'Normal' && vim.mode != 'Visual' && vim.mode != 'VisualBlock' && vim.mode != 'VisualLine'"
+  },
+  {
+    "key": "shift+4",
+    "command": "-auto.addInterpolation",
+    "when": "editorTextFocus && editorLangId == 'javascript' && vim.mode != 'Normal' && vim.mode != 'Visual' && vim.mode != 'VisualBlock' && vim.mode != 'VisualLine'"
   }
 ]
