@@ -3,6 +3,7 @@
   "workbench.colorTheme": "Theme",
   "liveServer.settings.CustomBrowser": "firefox",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.htmlWhitespaceSensitivity": "strict",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.autoClosingBrackets": "always",
@@ -11,7 +12,18 @@
     "postcss": "scss"
   },
   "emmet.excludeLanguages": ["markdown", "sass"],
-  "tailwindCSS.classAttributes": ["class", "className", "ngClass", "c", "c2", "c3", "c4", "c5", "testing", ".*Class"],
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "c",
+    "c2",
+    "c3",
+    "c4",
+    "c5",
+    "testing",
+    ".*Class"
+  ],
   "tailwindCSS.emmetCompletions": true,
   "tailwindCSS.includeLanguages": {
     "html": "html",
@@ -23,42 +35,36 @@
     "comments": "on",
     "strings": "on"
   },
-  "css-class-finder": {
-    "includePatterns": "**/*{.scss,.sass}",
-    "excludePatterns": "**/{node_modules}"
-  },
-  // "html-css-class-completion.JavaScriptLanguages": ["javascript", "javascriptreact", "typescriptreact"],
-  "cssPeek.peekFromLanguages": ["html", "scss", "sass", "django-html", "laravel-blade", "razor", "vue", "blade", "pug", "jade", "handlebars", "php", "twig", "md", "nunjucks", "javascript", "javascriptreact", "jsx", "JSX", "erb", "typescript", "typescriptreact", "HTML (Eex)", "html-eex", "ejs"],
-  "css.enabledLanguages": ["html", "javascript", "javascriptreact", "JSX", "jsx"],
+  "css.enabledLanguages": [
+    "html",
+    "javascript",
+    "javascriptreact",
+    "JSX",
+    "jsx"
+  ],
   "workbench.iconTheme": "material-icon-theme",
-  "prettier.proseWrap": "never",
-  "editor.wordWrap": "off",
   "html.format.contentUnformatted": "",
   "html.format.preserveNewLines": true,
-  "javascript.suggest.paths": false,
-  "prettier.printWidth": 10000000,
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   "indentRainbow.colors": ["rgba(0,0,0,.2)", "rgba(255, 255, 255,.001)"],
   "json.schemas": [],
-  "window.zoomLevel": 2,
   "indentRainbow.errorColor": "rgba(0,0,0,0)",
   "security.workspace.trust.untrustedFiles": "open",
   "editor.tabSize": 2,
   "[python]": {
     "editor.formatOnType": true
   },
-  "settingsSync.ignoredExtensions": [],
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "postcss.validate": false,
-  "[postcss]": {
-    "scss": "scss"
-  },
   "explorer.confirmDragAndDrop": false,
-  "css.lint.unknownAtRules": "ignore",
-  "less.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownAtRules": "ignore",
+  // "css.lint.unknownAtRules": "ignore",
+  // "less.lint.unknownAtRules": "ignore",
+  // "scss.lint.unknownAtRules": "ignore",
+  "window.zoomLevel": 2,
   "editor.suggestOnTriggerCharacters": false,
-  "tabnine.experimentalAutoImports": true
+  "editor.suggest.insertMode": "replace",
+  "prettier.printWidth": 80,
+  "editor.wordWrap": "on"
 }
